@@ -252,8 +252,8 @@ Development history exists in the original GitLab repository, reflecting individ
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/nemukumbiniT/offline-messaging-android
-cd offline-messaging-android
+git clone https://github.com/nemukumbiniT/nexa-offline-messaging
+cd nexa-offline-messaging
 ```
 
 Open the project in **Android Studio or IntelliJ IDEA**, then run it on a physical Android device (Bluetooth & Wi-Fi required).
