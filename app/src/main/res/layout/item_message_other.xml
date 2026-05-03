@@ -1,0 +1,33 @@
+<!-- item_message_other - Legacy layout for received message bubbles.
+     Created by Siyabonga Popela. Edited by Thanyani Nemukumbini.
+     Date: 2025-09-07 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:padding="6dp">
+
+    <!-- Sender name -->
+    <TextView
+        android:id="@+id/txtSender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alice"
+        android:textColor="#666666"
+        android:textSize="12sp"
+        android:paddingBottom="2dp"/>
+
+    <!-- Message bubble -->
+    <TextView
+        android:id="@+id/txtMessageOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bubble_other"
+        android:padding="10dp"
+        android:text="Hello!"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"/>
+</LinearLayout>
+
+

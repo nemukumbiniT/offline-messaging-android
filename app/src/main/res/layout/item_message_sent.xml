@@ -1,0 +1,18 @@
+<!-- item_message_sent - Layout binding sent message bubbles on the left.
+     Created by Siyabonga Popela. Edited by Thanyani Nemukumbini.
+     Date: 2025-09-25 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@drawable/bg_message_sent"
+        android:padding="10dp"
+        android:textColor="@android:color/white" />
+</FrameLayout>
+

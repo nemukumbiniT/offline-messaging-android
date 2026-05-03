@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FDFDFD</color>
+    <color name="purple">#008577</color>
+    <color name="messenger_blue">#0084FF</color>
+    <color name="messenger_light_blue">#B3D9FF</color>
+    <color name="messenger_light_gray">#F0F2F5</color>
+    <color name="messenger_dark_gray">#65676B</color>
+    <color name="purple_500">#008577</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color> <!-- added -->
+    <color name="gray_600">#757575</color>
+    <color name="white">#FFFFFF</color> <!-- added -->
+    <color name="black">#000000</color> <!-- added -->
+
+
+    <!-- Primary Colors -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="accent_color">#03DAC5</color>
+    
+    <!-- Background Colors -->
+    <color name="background_primary">#FAFAFA</color>
+    <color name="surface_color">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Divider -->
+    <color name="divider_color">#E0E0E0</color>
+    
+    <!-- Status Colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+    <color name="visibility_trusted_bg">#E8F5E9</color>
+    <color name="visibility_trusted_fg">#2E7D32</color>
+    <color name="visibility_open_bg">#E3F2FD</color>
+    <color name="visibility_open_fg">#0D47A1</color>
+    <color name="visibility_blocked_bg">#FFEBEE</color>
+    <color name="visibility_blocked_fg">#B71C1C</color>
+</resources>

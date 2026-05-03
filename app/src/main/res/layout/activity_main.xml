@@ -1,0 +1,49 @@
+<!-- activity_main - Prototype layout for quick peer refresh testing.
+     Created by Siyabonga Popela.
+     Date: 2025-08-26 -->
+<!--
+  Simple landing page with two buttons:
+  - @string/refresh_peers (Wi-Fi Direct)
+  - Open chat UI (for quick UI checks)
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nearby Peers" />
+
+    <ListView
+        android:id="@+id/NearbyPeers"
+        android:layout_width="match_parent"
+        android:layout_height="229dp" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/refresh_peers" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Chats" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ActiveChats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+

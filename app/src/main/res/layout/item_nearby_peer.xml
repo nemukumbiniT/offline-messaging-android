@@ -1,0 +1,70 @@
+<!-- item_nearby_peer - Card layout for discovered peer entries.
+     Created by Siyabonga Popela. Edited by Tasima Hapazari.
+     Date: 2025-09-08 -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/ivPeerIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPeerName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Peer Name"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@id/ivPeerIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chipVisibility"
+        style="@style/Widget.MaterialComponents.Chip.Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Trusted"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        app:chipIconVisible="false"
+        app:layout_constraintStart_toEndOf="@id/ivPeerIcon"
+        app:layout_constraintTop_toBottomOf="@id/tvPeerName" />
+
+    <TextView
+        android:id="@+id/tvPeerDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textSize="13sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@id/ivPeerIcon"
+        app:layout_constraintTop_toBottomOf="@id/chipVisibility"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
