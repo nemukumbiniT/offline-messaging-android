@@ -7,7 +7,6 @@
 The app focuses on **privacy, resilience, and accessibility**, making it ideal for rural areas, township communities, disaster scenarios, or users who need reliable communication without internet access.
 
 ---
-
 ## 🚀 Key Features
 
 ### 🔌 Offline Messaging
@@ -58,6 +57,35 @@ The app focuses on **privacy, resilience, and accessibility**, making it ideal f
 
 ---
 
+## 🧑‍💻 My Contributions
+
+⚙️ Key Systems Implemented
+
+🔐 Security Framework
+
+* End-to-end encryption key infrastructure
+* Public/private key management
+* Secure peer communication (shared secrets)
+* Trust-based messaging controls
+  
+💬 Messaging Infrastructure
+
+* Message storage and lifecycle design
+* Support for encrypted communication
+* Message state tracking (sent/delivered)
+
+👤 Authentication & User Management
+* User registration and login flow
+* Persistent sessions and auto-login
+* Profile data handling
+
+💾 Data Management
+* Database schema design (SQLite + Room)
+* Repository-style data access
+* Background data operations with coroutines
+
+---
+
 ## 🧭 User Workflow
 
 ### 1. Authentication
@@ -103,34 +131,7 @@ The app focuses on **privacy, resilience, and accessibility**, making it ideal f
 * Offline queueing supported
 
 ---
-##🧑‍💻 My Contributions##
 
-⚙️ Key Systems Implemented
-
-🔐 Security Framework
-
-* End-to-end encryption key infrastructure
-* Public/private key management
-* Secure peer communication (shared secrets)
-* Trust-based messaging controls
-  
-💬 Messaging Infrastructure
-
-* Message storage and lifecycle design
-* Support for encrypted communication
-* Message state tracking (sent/delivered)
-
-👤 Authentication & User Management
-* User registration and login flow
-* Persistent sessions and auto-login
-* Profile data handling
-
-💾 Data Management
-* Database schema design (SQLite + Room)
-* Repository-style data access
-* Background data operations with coroutines
-
----
 ## 🏗️ Architecture
 
 ### 📡 Communication Layer (`CommsLayer/`)
